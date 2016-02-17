@@ -1,59 +1,43 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-
     <title>Just Sayin'</title>
-
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> </head>
 
-</head>
-
-<body>
+<body style="background-color: turquoise">
 
     <div class="container" style="text-align:center; padding:100px;">
-        
+
         <div class="jumbotron">
-            
+
             <h1>Just Sayin'</h1>
-            
+
             <p style="margin-top:40px;">Just Wanted to tell you...</p>
-        
+
         </div>
-        
+
         <p>App By Elia Jensen</p>
-        
-    
+
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo"></p>
+
         <script>
-          alert("Hello you're a beatififul unicorn princess but first i need your name);
+            function myFunction() {
+                alert('Hello "you\'re a beatififul unicorn princess!" but first i need your name...');
+                var name = prompt("Please enter your name", "Harry Potter");
+                if (name != null) {}
+            }
         </script>
 
 
+        <link rel="stylesheet" type="text/css" href="style.css" />
 
-<link rel="stylesheet" type="text/css" href="style.css"/>
-    
-    <body style="background-color: turquoise">
-    <script>
-        var name=prompt("Please enter your first name and last name", "Enter your name")
-        if (name) {
-            alert('Hello ' + name + " YOU'RE A BEAUTIfUL UNICORN DRAGON PRINCESS!!!")
-        } else if(!name) {
-            prompt("Oops, looks like you didn't enter anything");
-        }
-    </script>
-    </body>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    
-    <!-- Include all compiled plugins (below), No application seems to be running here!No application seems to be running here! include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-    
-</body>
+        <!-- Include all compiled plugins (below), No application seems to be running here!No application seems to be running here! include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTotLSpeKKw3meBYS9Ul0D1kZarE3IiaaTJ6FpLwmz3Zldaa4l8Xg:228px;"> </body>
 
 </html>
-
