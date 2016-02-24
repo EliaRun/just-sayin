@@ -18,9 +18,9 @@
 
         </div>
 
-       <p>App By Elia Jensen</p>
+        <p>App By Elia Jensen</p>
 
-        <button onclick="myFunction()">Try it</button>
+        <button onclick="myFunction()">Click this</button>
         <p id="demo"></p>
 
         <script>
@@ -28,6 +28,14 @@
                 alert('Hello "you\'re a beatififul unicorn princess!" but first i need your name...');
                 var name = prompt("Please enter your name", "Harry Potter");
                 if (name != null) {}
+
+                if (name !== '') {
+                    alert("Hello " + name + " I just wanted to tell you your a beautiful unicorn princess");
+                }
+                else if (name !== false) {
+                    prompt("Oops, looks like you didn't enter anything");
+
+                }
             }
         </script>
 
