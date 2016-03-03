@@ -3,7 +3,7 @@
 
 <head>
     <title>Just Sayin'</title>
-    <!-- Bootstrap -->
+    <!-- HTML -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> </head>
 
 <body style="background-color: turquoise">
@@ -19,21 +19,6 @@
         <p>App By Elia Jensen</p>
         <button onclick="myFunction()">Click this!</button>
         <p id="demo"></p>
-        <script>
-            function myFunction() {
-                alert('Hello "you\'re a beatififul unicorn princess!" but first i need your name...');
-                var name = prompt("Please enter your name", "Harry Potter");
-                if (name != null) {}
-                if (name !== '') {
-                    alert("Hello " + name + " I just wanted to tell you your a beautiful unicorn princess");
-                }
-                else if (name !== false) {
-                    prompt("Oops, looks like you didn't enter anything");
-
-                }
-            }
-        </script>
-
 
         <link rel="stylesheet" type="text/css" href="style.css" />
 
@@ -45,19 +30,11 @@
 
         <link rel="stylesheet" href="css/animate.css">
         <script src="lib/wow.js"></script>
-        <script>
-            new WOW().init();
-        </script>
-
- <script type="text/javascript">
-    var clicks = 0;
-    function onClick() {
-        clicks += 1;
-        document.getElementById("clicks").innerHTML = clicks;
-    }
-    </script>
-    <button type="button" onClick="onClick()">Click me</button>
-    <p>Clicks: <a id="clicks">0</a></p>
+        <script src="lib/add.js"></script>
+        
+        
+        <button type="button" onClick="onClick()">Click me</button>
+        <p>Clicks: <a id="clicks">0</a></p>
 
 
 </body>
